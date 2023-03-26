@@ -1,0 +1,78 @@
+body{
+    background-image: url("./imagens/wallpaper.gif")
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial;
+}
+
+
+
+.caixa{
+    display: flex;
+    height: 250px;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+
+
+.caixa:hover{
+    border: 10px solid #000;
+    zoom:100%;
+    box-shadow: 0px 0px 15px 2px #fff;
+}
+
+
+
+div{
+    display:flex ;
+    justify-content: center;
+}
+
+
+
+p{
+    color:#fff ;
+}
+
+
+
+.adm{
+    background-color: #000;
+    border-radius: 10px;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    font-family: Arial;
+}
+
+
+
+.ghost{
+    border-radius: 20px;
+    width: 250px;
+    height: 170px;
+}   
+
+
+
+.mk1{
+    width: 250px;
+}
+
+
+
+.btn{
+    cursor: pointer;
+}
